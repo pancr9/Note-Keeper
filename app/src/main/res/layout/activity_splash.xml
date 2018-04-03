@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     android:gravity="center"
     tools:context="builderspace.notekeeper.controller.Splash">
 
@@ -12,7 +13,9 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:text="Note Keeper"
-        android:textColor="@color/colorPrimaryDark"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/ic_launcher_foreground"
+        android:textColor="@color/black"
         android:textSize="30sp" />
 
 </LinearLayout>
